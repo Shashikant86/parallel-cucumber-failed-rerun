@@ -10,6 +10,10 @@
  * Ruby 1.9.3 and above
  * Bundler
 
+## Install Gems 
+Use bundler for installing all Rubygems from bundler 
+
+    $ bundle install
 
 ## Running parallel_cucumber and Re-running failed Scenarios
 
@@ -19,14 +23,14 @@ This will run 10 features in 10 different processes.
 
 ## Reports
 
-  ### HTML Reports
+### HTML Reports
   Once you run the rake task, You will see HTML reports generated in the HTML files dependeing on how many process you have
 
-  ### Failed Scenario log
+### Failed Scenario log
 
   Parallel cucumber logs failed scenarios in the 'cucumber_failures.log'
 
-# using Rakefile
+# Rakefile
 
   Rakefile has 4 different tasks to perform different cucumber operations
 
