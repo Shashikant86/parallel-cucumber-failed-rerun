@@ -1,0 +1,3 @@
+test: --format html --out reports/process<%= ENV['TEST_ENV_NUMBER'] %>.html
+pretty: -f pretty
+parallel: --format pretty --profile test --format ParallelTests::Cucumber::FailuresLogger --out cucumber_failures.log
