@@ -6,4 +6,4 @@ Feature: Prallel cucumber failed rerun
 Scenario: Yahoo home page
 
   Given I am on the Yahoo home page
-  Then response code should be "200"
+  Then response code should be "500"

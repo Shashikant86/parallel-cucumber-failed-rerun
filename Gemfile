@@ -3,7 +3,7 @@ source :rubygems
 gem "capybara"
 gem "cucumber"
 gem "rspec", :require => "spec"
-gem "parallel_tests"
+gem "parallel_tests", :git => "https://github.com/Shashikant86/parallel_tests"
 gem "poltergeist"
 gem "selenium-webdriver"
 gem "capybara-accessible"
